@@ -1,0 +1,85 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #000;
+    color: #e5e5e5;
+    line-height: 1.6;
+}
+
+.contract-text {
+    font-size: 1.1rem;
+    color: #b3b3b3;
+}
+
+.hover-highlight {
+    position: relative;
+    cursor: help;
+    border-bottom: 1px dashed #666;
+    transition: all 0.2s;
+}
+
+.hover-highlight:hover {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+.tooltip {
+    visibility: hidden;
+    width: 220px;
+    background-color: #111;
+    color: #ccc;
+    text-align: center;
+    border-radius: 4px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    border: 1px solid #333;
+    font-size: 0.9rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.hover-highlight:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .desktop-tabs {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .contract-text {
+        font-size: 1rem;
+    }
+}
+
+.death-section {
+    background-color: #0a0a0a;
+    border-left: 4px solid #333;
+    padding-left: 1rem;
+}
+
+.tab-active {
+    border-bottom: 2px solid #666;
+    color: #fff;
+}
+
+.tab-inactive {
+    color: #666;
+}
+
+.tab-inactive:hover {
+    color: #999;
+}

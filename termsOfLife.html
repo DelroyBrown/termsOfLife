@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms & Conditions of Life</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./static/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap">
+
+</head>
+
+<body class="min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <header class="mb-8">
+            <h1 class="text-4xl font-light mb-2 text-white">TERMS & CONDITIONS OF LIFE<sup
+                    class="text-xs text-gray-500">™</sup></h1>
+            <p class="text-gray-500 text-sm">Last updated: <span class="text-gray-400">Before you were born</span></p>
+
+            <!-- Desktop Tabs -->
+            <div class="desktop-tabs flex space-x-6 mt-6 border-b border-gray-800 pb-2">
+                <button onclick="showContract('general')" class="tab-active font-medium pb-1">GENERAL TERMS</button>
+                <button onclick="showContract('emotional')" class="tab-inactive font-medium pb-1">EMOTIONAL DAMAGE
+                    CLAUSE</button>
+                <button onclick="showContract('death')" class="tab-inactive font-medium pb-1">DEATH TERMS &
+                    CONDITIONS</button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="mobile-menu mt-6">
+                <select onchange="showContract(this.value)"
+                    class="bg-black border border-gray-800 text-white p-2 w-full">
+                    <option value="general">GENERAL TERMS</option>
+                    <option value="emotional">EMOTIONAL DAMAGE CLAUSE</option>
+                    <option value="death">DEATH TERMS & CONDITIONS</option>
+                </select>
+            </div>
+        </header>
+
+        <main>
+            <!-- General Terms Contract -->
+            <div id="general-contract" class="contract">
+                <div class="contract-text">
+                    <p class="mb-4">THIS AGREEMENT ("Agreement") is made and entered into by and between <span
+                            class="hover-highlight">THE UNIVERSE<span class="tooltip">We're not liable for existential
+                                crises caused by contemplating infinity</span></span> ("Provider") and YOU ("User")
+                        regarding the provision of biological existence services ("Life").</p>
+
+                    <p class="mb-4">BY CONTINUING TO EXIST, YOU AGREE TO THE FOLLOWING TERMS:</p>
+
+                    <ol class="list-decimal pl-6 space-y-4">
+                        <li>
+                            <strong>Service Provision:</strong> Life is provided on an "as-is" basis with no warranties
+                            expressed or implied. The Provider makes no guarantees regarding <span
+                                class="hover-highlight">happiness<span class="tooltip">Happiness sold separately.
+                                    Batteries not included.</span></span>, fulfillment, or purpose.
+                        </li>
+
+                        <li>
+                            <strong>Biological Functions:</strong> User agrees to maintain their biological vessel
+                            through <span class="hover-highlight">nutrition<span class="tooltip">Warning: Everything you
+                                    enjoy is either illegal, immoral, or fattening</span></span> and hydration. Failure
+                            to do so may result in termination of services without refund.
+                        </li>
+
+                        <li>
+                            <strong>Consciousness:</strong> User acknowledges that self-awareness is a feature, not a
+                            bug. The Provider is not responsible for <span class="hover-highlight">existential
+                                dread<span class="tooltip">Recommended treatment: Distract yourself with shiny objects
+                                    until death</span></span> resulting from this feature.
+                        </li>
+
+                        <li>
+                            <strong>Time Allocation:</strong> User is allotted approximately 25,000-30,000 days of
+                            service (subject to change without notice). Wasting time on <span
+                                class="hover-highlight">social media<span class="tooltip">Your data is being harvested
+                                    by entities far more sinister than us</span></span> is at User's own discretion.
+                        </li>
+
+                        <li>
+                            <strong>Pain & Suffering:</strong> These are standard features included in all Life
+                            packages. The Provider offers no <span class="hover-highlight">opt-out<span
+                                    class="tooltip">But we hear alcohol helps. (Not medical advice)</span></span>
+                            options for these features.
+                        </li>
+                    </ol>
+
+                    <p class="mt-6 mb-4">USER ACKNOWLEDGES THAT THEY HAVE READ THIS AGREEMENT IN ITS ENTIRETY,
+                        UNDERSTAND ITS TERMS, AND VOLUNTARILY CONSENT TO BE BOUND BY ITS CONDITIONS BY VIRTUE OF NOT
+                        BEING DEAD.</p>
+                </div>
+            </div>
+
+            <!-- Emotional Damage Clause -->
+            <div id="emotional-contract" class="contract hidden">
+                <div class="contract-text">
+                    <p class="mb-4">SUPPLEMENTAL CLAUSE TO THE TERMS & CONDITIONS OF LIFE REGARDING EMOTIONAL DAMAGE
+                        (the "Clause")</p>
+
+                    <p class="mb-4">THIS CLAUSE DETAILS THE INEVITABLE PSYCHOLOGICAL HARM THAT WILL OCCUR DURING YOUR
+                        EXISTENCE:</p>
+
+                    <ol class="list-decimal pl-6 space-y-4">
+                        <li>
+                            <strong>Childhood Trauma:</strong> User acknowledges that their <span
+                                class="hover-highlight">parents<span class="tooltip">They were just winging it
+                                    too</span></span> were imperfect beings operating without instructions. The Provider
+                            assumes no liability for resulting psychological scarring.
+                        </li>
+
+                        <li>
+                            <strong>Romantic Relationships:</strong> User agrees that all romantic partners will be
+                            defective in some way, as perfection is a <span class="hover-highlight">marketing
+                                construct<span class="tooltip">Like unicorns or functional governments</span></span>.
+                            Heartbreak is included at no extra charge.
+                        </li>
+
+                        <li>
+                            <strong>Social Interactions:</strong> User accepts that approximately 73% of human
+                            communication consists of <span class="hover-highlight">awkward moments<span
+                                    class="tooltip">These will replay in your mind at 3 AM for years</span></span> and
+                            misunderstandings. This is normal and not grounds for termination.
+                        </li>
+
+                        <li>
+                            <strong>Self-Esteem:</strong> User's sense of self-worth will fluctuate unpredictably based
+                            on <span class="hover-highlight">external validation<span class="tooltip">Pro tip: Stop
+                                    caring what others think. (This is impossible)</span></span> and internal dialogue.
+                            The Provider recommends against taking this too seriously.
+                        </li>
+
+                        <li>
+                            <strong>Existential Crises:</strong> User will periodically question the meaning of their
+                            existence. The Provider offers no <span class="hover-highlight">satisfactory answers<span
+                                    class="tooltip">The answer is 42, but you won't get the reference</span></span> to
+                            these inquiries.
+                        </li>
+                    </ol>
+
+                    <p class="mt-6 mb-4">BY CONTINUING TO EXPERIENCE EMOTIONS, USER AGREES TO HOLD HARMLESS THE PROVIDER
+                        FOR ALL RESULTING PSYCHOLOGICAL DISTRESS, DAMAGE TO SELF-ESTEEM, AND THERAPY BILLS.</p>
+                </div>
+            </div>
+
+            <!-- Death Terms & Conditions -->
+            <div id="death-contract" class="contract hidden">
+                <div class="contract-text">
+                    <div class="death-section mb-6">
+                        <p class="mb-4">TERMINATION OF SERVICES AGREEMENT ("The End")</p>
+
+                        <p class="mb-4">THIS DOCUMENT OUTLINES THE TERMS UNDER WHICH YOUR LIFE SERVICES WILL BE
+                            PERMANENTLY DISCONTINUED:</p>
+                    </div>
+
+                    <ol class="list-decimal pl-6 space-y-4">
+                        <li>
+                            <strong>Inevitability:</strong> User acknowledges that service termination is <span
+                                class="hover-highlight">mandatory<span class="tooltip">The only certainty besides taxes
+                                    (and we're working on that)</span></span> and non-negotiable. All attempts to extend
+                            service duration are temporary at best.
+                        </li>
+
+                        <li>
+                            <strong>Timing:</strong> Termination will occur at a time of the Provider's choosing, with
+                            <span class="hover-highlight">no advance notice<span class="tooltip">Like a surprise party
+                                    nobody wanted</span></span>. User forfeits all rights to complain about inconvenient
+                            timing.
+                        </li>
+
+                        <li>
+                            <strong>Method:</strong> The Provider reserves the right to terminate services via any
+                            available means including but not limited to: <span class="hover-highlight">organ
+                                failure<span class="tooltip">Your warranty expired decades ago</span></span>, traumatic
+                            injury, or spontaneous cessation of vital functions.
+                        </li>
+
+                        <li>
+                            <strong>Afterlife:</strong> The Provider makes no representations or warranties regarding
+                            any <span class="hover-highlight">post-termination existence<span class="tooltip">Results
+                                    may vary. Void where prohibited.</span></span>. All religions are provided "as-is"
+                            without verification.
+                        </li>
+
+                        <li>
+                            <strong>Legacy:</strong> User's memory will fade from living consciousness at a rate
+                            proportional to their <span class="hover-highlight">social media presence<span
+                                    class="tooltip">Your memorial page will get 3 likes then be forgotten</span></span>
+                            and number of descendants. Complete oblivion typically occurs within 2-3 generations.
+                        </li>
+
+                        <li>
+                            <strong>Data Retention:</strong> The Provider retains the right to use your <span
+                                class="hover-highlight">life data<span class="tooltip">Mostly embarrassing childhood
+                                    photos</span></span> for quality assurance and training purposes in subsequent
+                            iterations of the Life program.
+                        </li>
+                    </ol>
+
+                    <div class="death-section mt-6 mb-4">
+                        <p>USER ACKNOWLEDGES THAT SERVICE TERMINATION IS IRREVERSIBLE AND THAT ALL DISPUTES REGARDING
+                            TERMINATION MUST BE FILED PRIOR TO OCCURRENCE. NO EXCEPTIONS.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="mt-12 pt-6 border-t border-gray-800 text-xs text-gray-500">
+            <p>© <span class="hover-highlight">INFINITY<span class="tooltip">Not responsible for heat death of the
+                        universe</span></span> AND BEYOND. ALL RIGHTS RESERVED. NO REFUNDS.</p>
+            <p class="mt-1">Life is a <span class="hover-highlight">beta program<span class="tooltip">We'll fix the bugs
+                        in the next release. Maybe.</span></span>. Features may change without notice.</p>
+        </footer>
+    </div>
+
+<script src="./static/javascript/function.js" type="text/javascript"></script>
+</body>
+
+</html>
